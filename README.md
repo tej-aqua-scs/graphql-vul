@@ -1,6 +1,6 @@
 # Damn Vulnerable GraphQL Application
 Damn Vulnerable GraphQL Application is an intentionally vulnerable implementation of Facebook's GraphQL technology, to learn and practice GraphQL Security.
-testing scs purpose
+testing scs purpose test
 sd
 <p align="center">
   <img src="https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/master/static/images/dvgql_logo.png?raw=true" width="300px" alt="DVGA"/>
