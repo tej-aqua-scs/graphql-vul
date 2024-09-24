@@ -17,7 +17,7 @@ pipeline {
             export TRIVY_RUN_AS_PLUGIN=aqua
             export AQUA_URL=https://api.supply-chain.cloud.aquasec.com
             export CSPM_URL=https://api.cloudsploit.com
-            trivy --cache-dir /tmp/trivy fs --scanners misconfig,vuln,secret --sast .
+            trivy --cache-dir /tmp/trivy1251344953 fs --scanners misconfig,vuln,secret --sast .
             # To customize which severities to scan for, add the following flag: --severity UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL
             # To enable SAST scanning, add: --sast
             # To enable reachability scanning, add: --reachability
