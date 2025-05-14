@@ -26,7 +26,7 @@ jobs:
 
   test:
     name: Build, Test, and Generate SBOM
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: scan
     steps:
       - uses: actions/checkout@v3
