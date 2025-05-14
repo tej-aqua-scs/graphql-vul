@@ -32,7 +32,7 @@ jobs:
 
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.9'  # Update Python version to 3.9 (or another supported version)
+          python-version: '3.9'  # You can use a newer version of Python, such as 3.9, to avoid issues
           cache: 'pip'
         
       - run: pip install -r requirements.txt
